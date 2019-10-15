@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="appLogo">
+    <file>icon.png</file>
+  </qresource>
+  <qresource prefix="comLogo">
+    <file>thunder_logo.png</file>
+  </qresource>
+</RCC>

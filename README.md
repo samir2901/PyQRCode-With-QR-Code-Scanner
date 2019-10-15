@@ -6,5 +6,6 @@ With this application one can create QR Code, read QR Code from an image file or
 
 Modules required:
 1. PyQt5
-2. opencv-python
-3. pyzbar
+2. qrcode
+3. opencv-python
+4. pyzbar

@@ -73,12 +73,3 @@ class Ui_HelpWindow(object):
         self.help2_2.setText(_translate("HelpWindow", "2. Read QRCode Using Camera: First Select Source if you are using your first webcam then select 0 and you are using any other camera then select 1. Then a video window will pop up and when the data from the QR Code appear on the window press \'G\' key on the keyboard to get the data."))
 import logo_rc
 
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    HelpWindow = QtWidgets.QMainWindow()
-    ui = Ui_HelpWindow()
-    ui.setupUi(HelpWindow)
-    HelpWindow.show()
-    sys.exit(app.exec_())

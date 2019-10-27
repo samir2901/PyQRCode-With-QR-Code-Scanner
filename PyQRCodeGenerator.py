@@ -116,12 +116,3 @@ class Ui_generatorWindow(object):
             
 import logo_rc
 
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    generatorWindow = QtWidgets.QMainWindow()
-    ui = Ui_generatorWindow()
-    ui.setupUi(generatorWindow)
-    generatorWindow.show()
-    sys.exit(app.exec_())

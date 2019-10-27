@@ -85,12 +85,3 @@ class Ui_AboutWindow(object):
         self.developers.setText(_translate("AboutWindow", "Developed by Thunder"))
 import logo_rc
 
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    AboutWindow = QtWidgets.QMainWindow()
-    ui = Ui_AboutWindow()
-    ui.setupUi(AboutWindow)
-    AboutWindow.show()
-    sys.exit(app.exec_())

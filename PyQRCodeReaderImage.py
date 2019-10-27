@@ -173,13 +173,3 @@ class Ui_readFromImageWindow(object):
             msgError.exec_() 
     
 import logo_rc
-
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    readFromImageWindow = QtWidgets.QMainWindow()
-    ui = Ui_readFromImageWindow()
-    ui.setupUi(readFromImageWindow)
-    readFromImageWindow.show()
-    sys.exit(app.exec_())

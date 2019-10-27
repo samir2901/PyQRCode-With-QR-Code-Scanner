@@ -190,12 +190,3 @@ class Ui_readFromCameraWindow(object):
     
 import logo_rc
 
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    readFromCameraWindow = QtWidgets.QMainWindow()
-    ui = Ui_readFromCameraWindow()
-    ui.setupUi(readFromCameraWindow)
-    readFromCameraWindow.show()
-    sys.exit(app.exec_())
